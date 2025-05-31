@@ -677,7 +677,39 @@ footer{
    .contact-card {
     min-width: 480px;
    }
+   .left {
+    left: 1%;
+   }
+   .right {
+    left: 58%;
+   }
+   .txt-bottom {
+    margin-left: 50px;
+    margin-top: -30px;
+   }
 
+}
+@media(max-width:450px) {
+    .title {
+        height: 90px;
+    }
+    .sm {
+        font-size: 30px;
+        height: 30px;
+    }
+    .bg {
+        font-size: 40px;
+    }
+    .left{
+    left: 10%;
+    }
+   .right{
+    top: 60px;
+    left: 65%;
+   }
+   .txt-bottom {
+    margin-left: 50px;
+   }
 }
 
 @media(max-width:400px) {
@@ -727,7 +759,7 @@ footer{
    
 }
 
-@media(max-width:320px) {
+@media(max-width:350px) {
     
     .logo img {
         margin: 0 20px;
